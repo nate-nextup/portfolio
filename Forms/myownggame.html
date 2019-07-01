@@ -1,0 +1,39 @@
+<html>
+  <body>
+
+  </body>
+<script>
+
+console.log(Math.floor(Math.random() * 20));
+var number = Math.floor(Math.random()* 20);
+var turns = 5;
+
+var numbers = 'Guess my number from, 1-20 you have ' + turns + ' turns to guess.';
+
+while (turns != 0) {
+   turns--;
+  
+var guess = prompt(numbers);
+console.log(numbers);
+
+guess = Number(guess);
+if (guess == number) {
+    turns = 0;
+   alert('You Win the number was ' + guess );
+   document.write('<h1> You Win </h1>');
+}
+else{
+   if (guess <= number) {
+      numbers = 'The number is higher';
+   
+   if (guess >= number) {
+      numbers = 'The number is lower';
+   
+   
+numbers = numbers + '. You have ' + turns + ' turns to guess.';
+}
+if (turns == 0 && guess != number) {
+alert(number); }
+
+  </script>
+</html>
