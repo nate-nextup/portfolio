@@ -1,0 +1,32 @@
+h1{
+    border:rgb(19, 157, 237);
+    border-style: inset;
+    width: 1420px;
+}
+ 
+img{
+    height:900px;
+}
+
+body{
+background-image: url("https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/bayhotels0715.jpg?itok=JgCzV6KW");
+
+}
+.images{
+    font-family: cursive;
+    font-size: 100px;
+
+}
+.navbarcolor{
+   color:rgb(204, 115, 33);
+}
+div{
+height:100px;
+}
+.navbarbg{
+    background-color: black;
+}
+.navbar-bran{
+    width:100px;
+    height:100px;
+}

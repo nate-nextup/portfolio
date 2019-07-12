@@ -1,0 +1,32 @@
+h1{
+    border-color:rgb(204, 115, 33);
+    border-style: inset;
+    width: 1420px;
+}
+ 
+img{
+    height:300px;
+    width:300px;
+}
+
+.images{
+    font-family: cursive;
+    font-size: 100px;
+
+}
+.navbarcolor{
+   color:rgb(204, 115, 33);
+}
+div{
+height:100px;
+}
+.navbarbg{
+    background-color: black;
+}
+.navbar-bran{
+    width:100px;
+    height:100px;
+}
+body{
+    background-color:rgb(194, 35, 51);
+}
