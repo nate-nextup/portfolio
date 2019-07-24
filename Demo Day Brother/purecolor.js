@@ -4,7 +4,6 @@ function loadImage(imageID) {
     document.write(images[imageID]);
 }
 function myFunction() {
-  // document.getElementById("myUL").style.display = "";
   // Declare variables
   var input, filter, ul, li, a, i, txtValue;
 
@@ -13,7 +12,6 @@ function myFunction() {
   // and changing it to uppercase
   filter = input.value.toUpperCase();
   ul = document.getElementById("myUL");
-  //ul.style.display = "";
   // creating an array with each li tag inside 
   li = ul.getElementsByTagName('li');
   // Loop through all list items, and hide those who don't match the search query
@@ -27,10 +25,10 @@ function myFunction() {
     //when search input matches one of the li 
  
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        ul.style.display = "";
-        li[i].style.display = "";
+        
+        li[i].style.display = "inline";
     } else {
-       ul.style.display = "";
+       
       li[i].style.display = "none";
     }
   }

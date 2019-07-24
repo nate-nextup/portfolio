@@ -27,8 +27,8 @@ height:100px;
     background-color: black;
 }
 .navbar-bran{
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
 }
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
@@ -62,4 +62,8 @@ height:100px;
   
   #myUL li a:hover:not(.header) {
     background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+.searchlist{
+    display: none;
   }
