@@ -8,12 +8,6 @@ img{
     height:900px;
 }
 
-<<<<<<< HEAD
-=======
-nav{
-    width:100%;
-}
->>>>>>> 1df5a6dce15574def612f7c353fd97265751ad03
 
 body{
 background-image: url("https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/bayhotels0715.jpg?itok=JgCzV6KW");
@@ -29,7 +23,7 @@ background-image: url("https://cdn-image.travelandleisure.com/sites/default/file
    color:rgb(204, 115, 33);
 }
 div{
-height:100px;
+/*height:100px;*/
 }
 .navbarbg{
     background-color: black;
@@ -46,7 +40,7 @@ height:100px;
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    margin-bottom: 12px; Add some space below the input */
   }
   
   #myUL {
@@ -59,9 +53,9 @@ height:100px;
   
   #myUL li a {
     border: 1px solid #ddd; /* Add a border to all links */
-    margin-top: -1px; /* Prevent double borders */
+    margin-top: -1px; /*Prevent double borders */
     background-color: #f6f6f6; /* Grey background color */
-    padding: 12px; /* Add some padding */
+    padding: 12px; /*Add some padding */
     text-decoration: none; /* Remove default text underline */
     font-size: 18px; /* Increase the font-size */
     color: black; /* Add a black text color */
